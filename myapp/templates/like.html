@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      a{
+        text-decoration:none !important;
+        background-color: white;
+        color: black !important;
+        border: 2px solid green;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-top:10px;
+        margin-left: 20px;
+      }
+      a:hover {
+        color: white !important;
+        background-color: green;
+      }
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Text Utils</title>
+  </head>
+  <body
+    style="
+      background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Photos-1920x1080-Widescreen.jpg');
+      background-repeat: no-repeat;
+      background-size: 100vw 150vh;
+    "
+  >
+    <div
+      style="
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 237px;
+       
+      "
+    >
+      <div
+        style="
+          background-color: rgba(255, 255, 255, 0.77);
+          border-radius: 10%;
+          margin-botoom:500px;
+        "
+      >
+        <div style="padding:30px;">
+          <script>
+            function success() {
+             {% comment %} if(document.getElementById("textsend1").value==="") { 
+                      document.getElementById('button1').disabled = true; 
+                  } else { 
+                      document.getElementById('button1').disabled = false;
+                  }
+                  if(document.getElementById("textsend2").value==="") { 
+                      document.getElementById('button2').disabled = true; 
+                  } else { 
+                      document.getElementById('button2').disabled = false;
+                  }
+                  if(document.getElementById("textsend3").value==="") { 
+                      document.getElementById('button3').disabled = true; 
+                  } else { 
+                      document.getElementById('button3').disabled = false;
+                  }
+                  if(document.getElementById("textsend4").value==="") { 
+                      document.getElementById('button4').disabled = true; 
+                  } else { 
+                      document.getElementById('button4').disabled = false;
+                  }
+                  if(document.getElementById("textsend5").value==="") { 
+                    document.getElementById('button5').disabled = true; 
+                } else { 
+                    document.getElementById('button5').disabled = false;
+                }
+                if(document.getElementById("textsend6").value==="") { 
+                    document.getElementById('button6').disabled = true; 
+                } else { 
+                    document.getElementById('button6').disabled = false;
+                }
+                if(document.getElementById("textsend7").value==="") { 
+                    document.getElementById('button7').disabled = true; 
+                } else { 
+                    document.getElementById('button7').disabled = false;
+                }
+                if(document.getElementById("textsend8").value==="") { 
+                    document.getElementById('button8').disabled = true; 
+                } else { 
+                    document.getElementById('button8').disabled = false;
+                }
+                if(document.getElementById("textsend9").value==="") { 
+                    document.getElementById('button9').disabled = true; 
+                } else { 
+                    document.getElementById('button9').disabled = false;
+                }
+                if(document.getElementById("textsend10").value==="") { 
+                    document.getElementById('button10').disabled = true; 
+                } else { 
+                    document.getElementById('button10').disabled = false;
+                }
+                if(document.getElementById("textsend11").value==="") { 
+                    document.getElementById('button11').disabled = true; 
+                } else { 
+                    document.getElementById('button11').disabled = false;
+                }
+                if(document.getElementById("textsend12").value==="") { 
+                    document.getElementById('button12').disabled = true; 
+                } else { 
+                    document.getElementById('button12').disabled = false;
+                }
+                if(document.getElementById("textsend13").value==="") { 
+                    document.getElementById('button13').disabled = true; 
+                } else { 
+                    document.getElementById('button13').disabled = false;
+                }
+                if(document.getElementById("textsend14").value==="") { 
+                    document.getElementById('button14').disabled = true; 
+                } else { 
+                    document.getElementById('button14').disabled = false;
+                }
+                if(document.getElementById("textsend15").value==="") { 
+                    document.getElementById('button15').disabled = true; 
+                } else { 
+                    document.getElementById('button15').disabled = false;
+                }
+                if(document.getElementById("textsend16").value==="") { 
+                    document.getElementById('button16').disabled = true; 
+                } else { 
+                    document.getElementById('button16').disabled = false;
+                }
+                if(document.getElementById("textsend17").value==="") { 
+                    document.getElementById('button17').disabled = true; 
+                } else { 
+                    document.getElementById('button17').disabled = false;
+                }
+                if(document.getElementById("textsend18").value==="") { 
+                    document.getElementById('button18').disabled = true; 
+                } else { 
+                    document.getElementById('button18').disabled = false;
+                }
+                if(document.getElementById("textsend19").value==="") { 
+                    document.getElementById('button19').disabled = true; 
+                } else { 
+                    document.getElementById('button19').disabled = false;
+                }
+                if(document.getElementById("textsend20").value==="") { 
+                    document.getElementById('button20').disabled = true; 
+                } else { 
+                    document.getElementById('button20').disabled = false;
+                }
+                if(document.getElementById("textsend21").value==="") { 
+                    document.getElementById('button21').disabled = true; 
+                } else { 
+                    document.getElementById('button21').disabled = false;
+                }
+                if(document.getElementById("textsend22").value==="") { 
+                    document.getElementById('button22').disabled = true; 
+                } else { 
+                    document.getElementById('button22').disabled = false;
+                }
+                if(document.getElementById("textsend23").value==="") { 
+                    document.getElementById('button23').disabled = true; 
+                } else { 
+                    document.getElementById('button23').disabled = false;
+                }
+                if(document.getElementById("textsend24").value==="") { 
+                    document.getElementById('button24').disabled = true; 
+                } else { 
+                    document.getElementById('button24').disabled = false;
+                }
+                if(document.getElementById("textsend25").value==="") { 
+                    document.getElementById('button25').disabled = true; 
+                } else { 
+                    document.getElementById('button25').disabled = false;
+                }
+                if(document.getElementById("textsend26").value==="") { 
+                    document.getElementById('button26').disabled = true; 
+                } else { 
+                    document.getElementById('button26').disabled = false;
+                }
+                if(document.getElementById("textsend27").value==="") { 
+                    document.getElementById('button27').disabled = true; 
+                } else { 
+                    document.getElementById('button27').disabled = false;
+                }
+                if(document.getElementById("textsend28").value==="") { 
+                    document.getElementById('button28').disabled = true; 
+                } else { 
+                    document.getElementById('button28').disabled = false;
+                }
+                if(document.getElementById("textsend29").value==="") { 
+                    document.getElementById('button29').disabled = true; 
+                } else { 
+                    document.getElementById('button29').disabled = false;
+                }
+                if(document.getElementById("textsend30").value==="") { 
+                    document.getElementById('button30').disabled = true; 
+                } else { 
+                    document.getElementById('button30').disabled = false;
+                }
+                if(document.getElementById("textsend31").value==="") { 
+                    document.getElementById('button31').disabled = true; 
+                } else { 
+                    document.getElementById('button31').disabled = false;
+                } {% endcomment %}
+                if(document.getElementById("textsend32").value==="") { 
+                    document.getElementById('button32').disabled = true; 
+                } else { 
+                    document.getElementById('button32').disabled = false;
+                }
+              }
+          </script>
+          <form action='/result' method = 'post'> {% csrf_token %}
+            <table>
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">ID1 = </label></td>
+                <td> <input id="textsend1" onkeyup="success()" type="NUMBER" class="form-control" name = 'text1' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button1" disabled type="submit" type="submit" name="sexe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">Name1 </label></td>
+                <td> <input id="textsend2" onkeyup="success()" type="NUMBER" class="form-control" name = 'text2' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button2" disabled type="submit" type="submit" name="s2exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+            <tr>
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">Age1 </label></td>
+                <td> <input id="textsend3" onkeyup="success()" type="NUMBER" class="form-control" name = 'text3' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button3" disabled type="submit" name="s3exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">Balance1 </label></td>
+                <td> <input id="textsend4" onkeyup="success()" type="NUMBER" class="form-control" name = 'text4' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button4" disabled type="submit" type="submit" name="s4exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+            <tr>
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">ID2 = </label></td>
+                <td> <input id="textsend5" onkeyup="success()" type="NUMBER" class="form-control" name = 'text5' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button5" disabled type="submit" type="submit" name="s5exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">Name2 </label></td>
+                <td> <input id="textsend6" onkeyup="success()" type="NUMBER" class="form-control" name = 'text6' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button6" disabled type="submit" type="submit" name="s6exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">Age2 </label></td>
+                <td> <input id="textsend7" onkeyup="success()" type="NUMBER" class="form-control" name = 'text7' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button7" disabled type="submit" name="s7exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">Balance2 </label></td>
+                <td> <input id="textsend8" onkeyup="success()" type="NUMBER" class="form-control" name = 'text8' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button8" disabled type="submit" type="submit" name="s8exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+            <tr>
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">ID3 = </label></td>
+                <td> <input id="textsend9" onkeyup="success()" type="NUMBER" class="form-control" name = 'text9' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button9" disabled type="submit" type="submit" name="s9exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">Name3 </label></td>
+                <td> <input id="textsend10" onkeyup="success()" type="NUMBER" class="form-control" name = 'text10' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button10" disabled type="submit" type="submit" name="s10exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+            <tr>
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">Age3 </label></td>
+                <td> <input id="textsend11" onkeyup="success()" type="NUMBER" class="form-control" name = 'text11' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button11" disabled type="submit" name="s11exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+            <tr>
+            <tr>
+            <tr>
+                <td><label for="exampleFormControlTextarea1" class="form-label">Balance12 </label></td>
+                <td> <input id="textsend12" onkeyup="success()" type="NUMBER" class="form-control" name = 'text12' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                <td></td>
+                <td></td>
+                {% comment %} <td><button id="button12" disabled type="submit" type="submit" name="s12exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+            </tr>
+            <tr>
+                <tr>
+                    <td><label for="exampleFormControlTextarea1" class="form-label">ID4 = </label></td>
+                    <td> <input id="textsend13" onkeyup="success()" type="NUMBER" class="form-control" name = 'text13' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                    <td></td>
+                    <td></td>
+                    {% comment %} <td><button id="button13" disabled type="submit" type="submit" name="s13exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                </tr>
+                <tr>
+                    <td><label for="exampleFormControlTextarea1" class="form-label">Name4 </label></td>
+                    <td> <input id="textsend14" onkeyup="success()" type="NUMBER" class="form-control" name = 'text14' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                    <td></td>
+                    <td></td>
+                    {% comment %} <td><button id="button14" disabled type="submit" type="submit" name="s14exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                </tr>
+                <tr>
+                <tr>
+                    <td><label for="exampleFormControlTextarea1" class="form-label">Age4 </label></td>
+                    <td> <input id="textsend15" onkeyup="success()" type="NUMBER" class="form-control" name = 'text15' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                    <td></td>
+                    <td></td>
+                    {% comment %} <td><button id="button15" disabled type="submit" name="s15exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                </tr>
+                <tr>
+                <tr>
+                <tr>
+                    <td><label for="exampleFormControlTextarea1" class="form-label">Balance4 </label></td>
+                    <td> <input id="textsend16" onkeyup="success()" type="NUMBER" class="form-control" name = 'text16' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                    <td></td>
+                    <td></td>
+                    {% comment %} <td><button id="button16" disabled type="submit" type="submit" name="s16exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                </tr>
+                <tr>
+                    <tr>
+                        <td><label for="exampleFormControlTextarea1" class="form-label">ID5 = </label></td>
+                        <td> <input id="textsend17" onkeyup="success()" type="NUMBER" class="form-control" name = 'text17' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                        <td></td>
+                        <td></td>
+                        {% comment %} <td><button id="button17" disabled type="submit" type="submit" name="s17exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                    </tr>
+                    <tr>
+                        <td><label for="exampleFormControlTextarea1" class="form-label">Name5 </label></td>
+                        <td> <input id="textsend18" onkeyup="success()" type="NUMBER" class="form-control" name = 'text18' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                        <td></td>
+                        <td></td>
+                        {% comment %} <td><button id="button18" disabled type="submit" type="submit" name="s18exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td><label for="exampleFormControlTextarea1" class="form-label">Age5 </label></td>
+                        <td> <input id="textsend19" onkeyup="success()" type="NUMBER" class="form-control" name = 'text5' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                        <td></td>
+                        <td></td>
+                        {% comment %} <td><button id="button19" disabled type="submit" name="s19exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                    </tr>
+                    <tr>
+                    <tr>
+                    <tr>
+                        <td><label for="exampleFormControlTextarea1" class="form-label">Balance5 </label></td>
+                        <td> <input id="textsend20" onkeyup="success()" type="NUMBER" class="form-control" name = 'text20' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                        <td></td>
+                        <td></td>
+                        {% comment %} <td><button id="button20" disabled type="submit" type="submit" name="s20exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                    </tr>
+                    <tr>
+                        <tr>
+                            <td><label for="exampleFormControlTextarea1" class="form-label">ID6 = </label></td>
+                            <td> <input id="textsend21" onkeyup="success()" type="NUMBER" class="form-control" name = 'text21' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                            <td></td>
+                            <td></td>
+                            {% comment %} <td><button id="button21" disabled type="submit" type="submit" name="s21exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                        </tr>
+                        <tr>
+                            <td><label for="exampleFormControlTextarea1" class="form-label">Name6 </label></td>
+                            <td> <input id="textsend22" onkeyup="success()" type="NUMBER" class="form-control" name = 'text22' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                            <td></td>
+                            <td></td>
+                            {% comment %} <td><button id="button22" disabled type="submit" type="submit" name="s22exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td><label for="exampleFormControlTextarea1" class="form-label">Age6 </label></td>
+                            <td> <input id="textsend23" onkeyup="success()" type="NUMBER" class="form-control" name = 'text23' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                            <td></td>
+                            <td></td>
+                            {% comment %} <td><button id="button23" disabled type="submit" name="s23exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                        </tr>
+                        <tr>
+                        <tr>
+                        <tr>
+                            <td><label for="exampleFormControlTextarea1" class="form-label">Balance6 </label></td>
+                            <td> <input id="textsend24" onkeyup="success()" type="NUMBER" class="form-control" name = 'text24' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                            <td></td>
+                            <td></td>
+                            {% comment %} <td><button id="button24" disabled type="submit" type="submit" name="s24exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                        </tr>
+                        <tr>
+                            <tr>
+                                <td><label for="exampleFormControlTextarea1" class="form-label">ID7 = </label></td>
+                                <td> <input id="textsend25" onkeyup="success()" type="NUMBER" class="form-control" name = 'text25' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                                <td></td>
+                                <td></td>
+                                {% comment %} <td><button id="button25" disabled type="submit" type="submit" name="s25exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                            </tr>
+                            <tr>
+                                <td><label for="exampleFormControlTextarea1" class="form-label">Name7 </label></td>
+                                <td> <input id="textsend26" onkeyup="success()" type="NUMBER" class="form-control" name = 'text26' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                                <td></td>
+                                <td></td>
+                                {% comment %} <td><button id="button26" disabled type="submit" type="submit" name="s26exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                            </tr>
+                            <tr>
+                            <tr>
+                                <td><label for="exampleFormControlTextarea1" class="form-label">Age7 </label></td>
+                                <td> <input id="textsend27" onkeyup="success()" type="NUMBER" class="form-control" name = 'text27' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                                <td></td>
+                                <td></td>
+                                {% comment %} <td><button id="button27" disabled type="submit" name="s27exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                            </tr>
+                            <tr>
+                            <tr>
+                            <tr>
+                                <td><label for="exampleFormControlTextarea1" class="form-label">Balance7 </label></td>
+                                <td> <input id="textsend28" onkeyup="success()" type="NUMBER" class="form-control" name = 'text28' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                                <td></td>
+                                <td></td>
+                                {% comment %} <td><button id="button28" disabled type="submit" type="submit" name="s28exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                            </tr>
+                            <tr>
+                                <tr>
+                                    <td><label for="exampleFormControlTextarea1" class="form-label">ID8 = </label></td>
+                                    <td> <input id="textsend29" onkeyup="success()" type="NUMBER" class="form-control" name = 'text29' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                                    <td></td>
+                                    <td></td>
+                                    {% comment %} <td><button id="button29" disabled type="submit" type="submit" name="s29exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                                </tr>
+                                <tr>
+                                    <td><label for="exampleFormControlTextarea1" class="form-label">Name8 </label></td>
+                                    <td> <input id="textsend30" onkeyup="success()" type="NUMBER" class="form-control" name = 'text30' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                                    <td></td>
+                                    <td></td>
+                                    {% comment %} <td><button id="button30" disabled type="submit" type="submit" name="s30exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                                </tr>
+                                <tr>
+                                <tr>
+                                    <td><label for="exampleFormControlTextarea1" class="form-label">Age8 </label></td>
+                                    <td> <input id="textsend31" onkeyup="success()" type="NUMBER" class="form-control" name = 'text31' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                                    <td></td>
+                                    <td></td>
+                                    {% comment %} <td><button id="button31" disabled type="submit" name="s31exe" class="btn btn-outline-dark">Execute</button><td></td>  {% endcomment %}
+                                </tr>
+
+                                <tr>
+                                    <td><label for="exampleFormControlTextarea1" class="form-label">Balance8 </label></td>
+                                    <td> <input id="textsend32" onkeyup="success()" type="NUMBER" class="form-control" name = 'text32' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><button id="button32" disabled type="submit" type="submit" name="s32exe" class="btn btn-outline-dark">Execute</button><td></td> 
+                                </tr>
+                                <tr>
+          <!--    Switches-->
+          <!--    button-->
+          <tr><td><a href="query">Back to Encrypted operation</a></td></tr>
+          
+          </table>
+          </form>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>

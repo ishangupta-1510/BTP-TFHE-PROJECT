@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      a{
+        text-decoration:none !important;
+        background-color: white;
+        color: black !important;
+        border: 2px solid green;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-top:10px;
+        margin-left: 20px;
+      }
+      a:hover {
+        color: white !important;
+        background-color: green;
+      }
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Text Utils</title>
+  </head>
+  <body
+    style="
+      background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Photos-1920x1080-Widescreen.jpg');
+      background-repeat: no-repeat;
+      background-size: 100vw 100vh;
+    "
+  >
+    <div
+      style="
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div
+        style="
+          background-color: rgba(255, 255, 255, 0.77);
+          border-radius: 20%;
+        "
+      >
+      <form style="padding:20px;" action='/analyze1' method = 'post'> {% csrf_token %}
+
+        <table>
+          <tr>
+        <td><label for="exampleFormControlTextarea1" class="form-label">UPDATE &nbsp;EDB&nbsp; SET&nbsp; BMI&nbsp;= </label></td>
+        <td> <input type="NUMBER" class="form-control" name = 'text1' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+       <td>&nbsp;WHERE &nbsp;age &nbsp;=&nbsp;</td> 
+       <td><input type="NUMBER" class="form-control" name = 'text2' id="exampleFormControlTextarea1" rows="1" style="font-family:verdana;"></input></td>
+       <td><button type="submit" name="Execute" class="btn btn-outline-dark">Execute</button><td>
+       </tr>
+        <tr><td> <a href="query">Back to Encrypted operation</a></td> </tr>
+      
+      <!--    Switches-->
+      <!--    button-->
+      
+      
+      </table>
+      </form>
+      
+      </div>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>
